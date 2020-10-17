@@ -1,0 +1,109 @@
+{
+  "id": "7a9d23d7-0794-4329-9aca-1c949aa164f4",
+  "version": "2.0",
+  "name": "Грузовичков_Зоголь",
+  "url": "https://gruzovichkof.ru/akcii",
+  "tests": [{
+    "id": "6c376f57-1db4-4a56-bd38-0a48e311d329",
+    "name": "Дачный переезд",
+    "commands": [{
+      "id": "62849d7a-f6ed-470f-9433-069048489be8",
+      "comment": "",
+      "command": "open",
+      "target": "https://gruzovichkof.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd881504-71c8-4e66-a19c-ae446093866b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32c085a7-298d-4310-9911-44f9449625dd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,288)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "038d57c1-a939-460f-bf5f-52cb627b7492",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.MuiTypography-h2",
+      "targets": [
+        ["css=.MuiTypography-h2", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/section/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Акции сервиса ГрузовичкоФ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7362888-1f7d-4a73-ab9a-8ef3d95c9a53",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Скидки и акции грузоперевозки - «ГрузовичкоФ»",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40fe12ab-275f-43d0-b8a0-f8ff29f027c9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,202)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "292b0d93-9af4-4055-88ca-9b860c5404dd",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[2]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0299de0-9196-4631-b5ce-8ae4226d74d7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.MuiGrid-root:nth-child(3) > .MuiGrid-root:nth-child(2) .MuiTypography-root > .MuiTypography-root",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(3) > .MuiGrid-root:nth-child(2) .MuiTypography-root > .MuiTypography-root", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[2]/div/div/a/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Дачный переезд')]", "xpath:innerText"]
+      ],
+      "value": "Дачный переезд"
+    }, {
+      "id": "ae55e496-91b7-4a7c-899a-48a922f27a4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .jss183", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/div/div[2]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58001101-5ca6-418b-a908-4360952a3ea6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3176fd5e-0017-4f37-9fea-7a6baa0b8b48",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6c376f57-1db4-4a56-bd38-0a48e311d329"]
+  }],
+  "urls": ["https://gruzovichkof.ru/akcii"],
+  "plugins": []
+}
