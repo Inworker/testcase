@@ -1,0 +1,2 @@
+Для просмотра тест-кейса перейти по ссылке на гугл док: https://docs.google.com/spreadsheets/d/1CU7zrsDPtBcUoNRi666VUQJEua4ZXBST1uAckNV0JXk/edit?usp=sharing
+Для просмотра баг-репорта перейти по ссылке на гугл док:https://docs.google.com/spreadsheets/d/1fTwn4wJqzBcnius6GXp3qx1EBOKbNuSHDTHfQfVgQ6I/edit?usp=sharing
